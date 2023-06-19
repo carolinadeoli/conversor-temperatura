@@ -1,13 +1,42 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;600;900&display=swap');
 
+body{
+    background-image: linear-gradient(to right, black, #080714);
+}
+
 h1{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     font-style: italic;
     font-size: 2.2em;
+    color: white;
 }
-
+p, label{
+    color:white;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    
+}
 .container{
     text-align: center;
+    padding: 20px;
+    height: 90vh;
 }
+.button{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    background-color: rgb(179, 96, 235);
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    width: 90px;
+}
+#temperatura{
+    border-radius: 10px;
+    width:200px;
+    height:17px;
+    padding: 4px 8px;
+    margin:12px;
+}
+/*#277DE6, #27B3E6/*
